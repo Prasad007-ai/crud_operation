@@ -1,0 +1,38 @@
+.container{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 5%;
+    height: 100vh;
+    max-width: 400px;
+    background-color: aqua;
+    
+    }
+    
+    .ter{
+        position: relative;
+        text-align: center;
+    }
+    
+    .form-control{
+        width: 300px;
+        margin: 10px 0px;
+    }
+    
+    
+    .signin{
+        position: relative;
+        width: 300px;
+        height: 40px;
+        border-radius: 30px;
+        border: 1px solid rgb(128, 0, 0);
+        font-size: 18px;
+    }
+    
+    .signin:hover{
+        cursor: pointer;
+    }
